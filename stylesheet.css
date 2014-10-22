@@ -10,9 +10,14 @@ h1 {
   font-size: 3em;
 }
 
+h2.adjust {
+  display: inline-block;
+}
+
 section.cat {
   display: inline-block;
   width: 405px;
+  height: 600px;
 }
 
 section.text {
@@ -26,14 +31,20 @@ main.errrthing {
   padding: 5%;
 }
 
+#cat_body {
+  width: 405px;
+  height: 600px;
+  position: absolute;
+}
+
 #left_eye {
-  margin-left: 7%;
-  margin-top: 8%;
+  margin-left: 23%;
+  margin-top: 22%;
 }
 
 #right_eye {
-  margin-left: 12.5%;
-  margin-top: 8%;
+  margin-left: 40%;
+  margin-top: 22%;
 }
 
 #right_eye, #left_eye {
@@ -60,6 +71,6 @@ main.errrthing {
   border-radius: 50%;
   background-color: pink;
   position: absolute;
-  margin-left: 10%;
-  margin-top: 10.5%;
+  margin-left: 33%;
+  margin-top: 30%;
 }
