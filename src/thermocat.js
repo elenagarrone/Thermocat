@@ -30,7 +30,7 @@ Thermocat.prototype.decreaseTemperatureBy = function(degrees) {
 };
 
 Thermocat.prototype.resetTemperature = function() {
-  this.temperature = 20;
+  return this.temperature = 20;
 };
 
 Thermocat.prototype.changeColor = function () {
@@ -46,11 +46,13 @@ Thermocat.prototype.changeColor = function () {
 };
 
 Thermocat.prototype.turnOffPowerSave = function() {
+  this.resetTemperature();
 	this.isPowerSaveMode = false;
 	this.maximumTemperature = 32;
 };
 
 Thermocat.prototype.turnOnPowerSave = function() {
+  this.resetTemperature();
   this.isPowerSaveMode = true;
   this.maximumTemperature = 25;
 };

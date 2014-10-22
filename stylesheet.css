@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Droid Serif', serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+section.cat {
+  display: inline-block;
+  width: 405px;
+}
+
+section.text {
+  vertical-align: top;
+  padding-top: 10%;
+  display: inline-block;
+}
+
+main.errrthing {
+  background-color: aqua;
+  padding: 5%;
+}
+
+#left_eye {
+  margin-left: 7%;
+  margin-top: 8%;
+}
+
+#right_eye {
+  margin-left: 12.5%;
+  margin-top: 8%;
+}
+
+#right_eye, #left_eye {
+  width: 30px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: yellow;
+  position: absolute;
+}
+
+#pupil {
+  position: relative;
+  width: 6px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  margin-left: 40%;
+  margin-top: 1%;
+}
+
+#nose {
+  width: 20px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: pink;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 10.5%;
+}
