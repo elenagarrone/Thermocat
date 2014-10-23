@@ -3,15 +3,16 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Droid Serif', serif;
+  font-family: 'Covered By Your Grace', cursive;
 }
 
 h1 {
   font-size: 3em;
 }
 
-h2.adjust {
+h2 {
   display: inline-block;
+  padding-top: 1%;
 }
 
 section.cat {
@@ -26,8 +27,12 @@ section.text {
   display: inline-block;
 }
 
+/*div.menu {
+  background-color: brown;
+  opacity: .5;
+*/
+
 main.errrthing {
-  background-color: aqua;
   padding: 5%;
 }
 
